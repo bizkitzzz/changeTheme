@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.5s;
+}
+
+.theme-btn {
+  background-color: rgb(241, 233, 160);
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 100%;
+  font-size: 1.5rem;
+}
+
+.theme-btn:hover {
+  background-color: #ffd900;
+  transition: background-color 0.5s;
+}
+
+.theme-btn:active {
+  background-color: #ffbb00;
+  transform: scale(1.5);
+  transition: transform 0.2s;
+}
